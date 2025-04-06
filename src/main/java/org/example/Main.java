@@ -1,17 +1,29 @@
 package org.example;
 
+import java.time.LocalDate;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main (String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf ("Hello and welcome!");
+        LocalDate fechaInicio = LocalDate.now ();
+        LocalDate fechaLimite = LocalDate.now ().plusDays (10);
+        LocalDate PrimerosDias = LocalDate.now ();
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println ("i = " + i);
-        }
+        Concurso concurso = new Concurso (fechaInicio, fechaLimite, "CONCURSO DE ROCK", PrimerosDias);
+
+
+
+        Participante participante1 = new Participante (123456, "Chester", "Bennington", LocalDate.now ());
+        Participante participante2 = new Participante (987654, "Ricardo", "Iorio", LocalDate.now ().plusDays (3));
+        Participante participante3 = new Participante (192837, "John", "Lennon", LocalDate.now ());
+
+        concurso.agregarParticipante (participante1.fechaInscripcionParticipante(), participante1);
+        concurso.agregarParticipante (participante2.fechaInscripcionParticipante(), participante2);
+        concurso.agregarParticipante (participante3.fechaInscripcionParticipante(), participante3);
+
+        participante1.puntosGanados ();
+        participante2.puntosGanados ();
+        participante3.puntosGanados ();
+
     }
 }
