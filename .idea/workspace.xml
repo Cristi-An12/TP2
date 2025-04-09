@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a54a5735-e951-4491-b64d-b98fa26038e4" name="Changes" comment="commit de directorio" />
+    <list default="true" id="a54a5735-e951-4491-b64d-b98fa26038e4" name="Changes" comment="commit de directorio">
+      <change afterPath="$PROJECT_DIR$/PuntoDos" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +41,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Documents/UNRN/3-año/2-Orientacion a Objetos II/3-Buenas practicas de diceño POO/TP2/PuntoDos"
+    "last_opened_file_path": "D:/Documents/UNRN/3-año/2-Orientacion a Objetos II/3-Buenas practicas de diceño POO/TP2"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,7 +69,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743971313792</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit de directorio">
+      <option name="closed" value="true" />
+      <created>1744197815625</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744197815625</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit de directorio">
+      <option name="closed" value="true" />
+      <created>1744197838369</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744197838369</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
