@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a54a5735-e951-4491-b64d-b98fa26038e4" name="Changes" comment="commit de directorio">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a54a5735-e951-4491-b64d-b98fa26038e4" name="Changes" comment="commit de directorio" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +39,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Documents/UNRN/3-año/2-Orientacion a Objetos II/2-Objetos y Testing Unitario/TP 1 - Objetos y JUnit/Punto-1"
+    "last_opened_file_path": "D:/Documents/UNRN/3-año/2-Orientacion a Objetos II/3-Buenas practicas de diceño POO/TP2/PuntoDos"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -61,7 +59,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743969357452</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit de directorio">
+      <option name="closed" value="true" />
+      <created>1743971313792</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743971313792</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
