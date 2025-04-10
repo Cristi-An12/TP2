@@ -8,11 +8,11 @@ public class conexionABDD {
     private static Connection conexion = null;
 
 
-    public static Connection coneccion () {
+    public static Connection conexiones () {
         if (conexion == null){
             try {
                 //estos son datos inventados para representar los paranebtros de configuracion
-                String Url = "jdbc:mysql://local:3300/restautant_db";
+                String Url = "jdbc:mysql://localhost:3300/restautant_db";
                 String user = "usuario";
                 String password = "contraseña";
 
